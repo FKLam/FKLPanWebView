@@ -1,0 +1,16 @@
+PODS:
+  - FKLPanWebView (0.1.0)
+
+DEPENDENCIES:
+  - FKLPanWebView (from `../`)
+
+EXTERNAL SOURCES:
+  FKLPanWebView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FKLPanWebView: bf48dbed53da7558e5a1aa18b15d7ee7fa7e3eae
+
+PODFILE CHECKSUM: 9714d2721e732b303acc2a70484b1a8d96cc9f81
+
+COCOAPODS: 1.1.1

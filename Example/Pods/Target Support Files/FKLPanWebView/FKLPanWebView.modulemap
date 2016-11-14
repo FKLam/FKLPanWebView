@@ -1,0 +1,6 @@
+framework module FKLPanWebView {
+  umbrella header "FKLPanWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}
