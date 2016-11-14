@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FKLPanWebView_Example' do
+  pod 'FKLPanWebView', :path => '../'
+
+  target 'FKLPanWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
