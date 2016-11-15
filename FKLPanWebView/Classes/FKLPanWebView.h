@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+@class FKLPanWebView;
+
+@protocol  FKLPanWebViewDelegate <NSObject>
+
+@optional
+
+- (void)FKL_panWebView:(FKLPanWebView *)webView panPopGesture:(UIPanGestureRecognizer *)panPopGesture;
+
+- (void)FKL_panWebView:(FKLPanWebView *)webView didChangePopGestureEnabled:(BOOL)enabled;
+
+@end
+
 @interface FKLPanWebView : UIWebView
+
+@property (nonatomic, weak) id<FKLPanWebViewDelegate> panDelegate;
 
 @end

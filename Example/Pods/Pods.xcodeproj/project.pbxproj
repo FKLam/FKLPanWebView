@@ -9,15 +9,17 @@
 /* Begin PBXBuildFile section */
 		0081373AFE21C6E6B061C08C35B7382D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		042A861B8570E82DF16FD38C9679B793 /* Pods-FKLPanWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD12841435C2EBF788CBB4E860F9769C /* Pods-FKLPanWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AB74E263E8262D0CAD846D91439C256 /* FKLPanWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6513CE99D6925D286D3DDE64AB98851D /* FKLPanWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10144D6115AECD26F9C473D5AB8B0B17 /* FKLPanWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC079E2A6249C5000FD1E153028245F /* FKLPanWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6D529A23D673A579A4BBF177A133B3 /* FKLWebCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5683AD812FC51D81B316FDEBFBD8 /* FKLWebCacheTool.m */; };
+		3FCB012249D45D3E2DD1A47E7D5E9DC4 /* FKLPanWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C714BA25F876F4E2735717170261374A /* FKLPanWebView.m */; };
+		47E2E41C9E377D909C22A7F22B8774B5 /* FKLPanWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6513CE99D6925D286D3DDE64AB98851D /* FKLPanWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		520ACA3C295573AECFAF60C1221618F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5CF68511954B6F741D5461AE64872F72 /* FKLPanWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A65D0D72409974B8F63C00B391CC3CB /* FKLPanWebView-dummy.m */; };
 		71B2264F13BF384124CFFE1A0B1C82ED /* Pods-FKLPanWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 201D14F1B6769E81E190403F61DA1EC0 /* Pods-FKLPanWebView_Tests-dummy.m */; };
-		7C7B94543EB7FE98B97131645B982E14 /* FKLPanWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF311DBD806B8705E9005BA199BB4A18 /* FKLPanWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B663A927F7829724B6DAA5BC5E4B65 /* FKLPanWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A65D0D72409974B8F63C00B391CC3CB /* FKLPanWebView-dummy.m */; };
 		98D8456C8EEA8DB4333B348C1C19210A /* Pods-FKLPanWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C881C3AF57DB0B29D0EBCF2746F38C /* Pods-FKLPanWebView_Example-dummy.m */; };
-		B7EB9DCB537D047EDC71C4920808EB36 /* FKLPanWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F45D0F72B4B1165223B1C17F6B7B2 /* FKLPanWebView.m */; };
+		B41FB57CC549CE450D5102EFDC6F17D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C9F1EF650D7C04A1C18FE31D4F598BE6 /* FKLWebCacheTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1491382E9E535BA94E6E7CCCC3B5E2FB /* FKLWebCacheTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF40B1DDABBD3DBB584D6C668DB17500 /* Pods-FKLPanWebView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2D1A1A4A7E5AFF53665A36859363E7 /* Pods-FKLPanWebView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA25AE77D4FFEDBCF5C6127B9D0C7CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84C2FAC24F0CA9D22AB130D90302F392;
+			remoteGlobalIDString = F97081D1C647CAD8C10C32551E37EB53;
 			remoteInfo = FKLPanWebView;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,7 +35,8 @@
 /* Begin PBXFileReference section */
 		00869C3390A7EB143CB4060BBD686455 /* Pods-FKLPanWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FKLPanWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0932653C81DAB9CD3D619ECF85401569 /* Pods_FKLPanWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLPanWebView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F8F45D0F72B4B1165223B1C17F6B7B2 /* FKLPanWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FKLPanWebView.m; sourceTree = "<group>"; };
+		0CC079E2A6249C5000FD1E153028245F /* FKLPanWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FKLPanWebView.h; sourceTree = "<group>"; };
+		1491382E9E535BA94E6E7CCCC3B5E2FB /* FKLWebCacheTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FKLWebCacheTool.h; sourceTree = "<group>"; };
 		1A65D0D72409974B8F63C00B391CC3CB /* FKLPanWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FKLPanWebView-dummy.m"; sourceTree = "<group>"; };
 		1E078517571AE99184222990B48795F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201D14F1B6769E81E190403F61DA1EC0 /* Pods-FKLPanWebView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FKLPanWebView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -55,10 +58,11 @@
 		79050EE7043D32C0CF80CA4F44E640CB /* FKLPanWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FKLPanWebView-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		996436BCF43662F9F0BB7028E8F15D97 /* FKLPanWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FKLPanWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF311DBD806B8705E9005BA199BB4A18 /* FKLPanWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FKLPanWebView.h; sourceTree = "<group>"; };
+		A76B5683AD812FC51D81B316FDEBFBD8 /* FKLWebCacheTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FKLWebCacheTool.m; sourceTree = "<group>"; };
 		B08B49529594C51AD070D41522397BDF /* FKLPanWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FKLPanWebView.modulemap; sourceTree = "<group>"; };
 		B5AA17E9F2A9B12272E6655647203B1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0094BD2798DFF7CA8356B496B15FF9E /* Pods-FKLPanWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FKLPanWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C714BA25F876F4E2735717170261374A /* FKLPanWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FKLPanWebView.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC59409309D15F3B38060B1B03B802D9 /* Pods-FKLPanWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FKLPanWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E8B6335FDF08FE188386082CA1B99D2A /* Pods-FKLPanWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FKLPanWebView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -67,19 +71,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82636EDA0D24E5F9B41F399FE56A0420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41FB57CC549CE450D5102EFDC6F17D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B71E6ACB740A1D47C04D2C7B1B219737 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0081373AFE21C6E6B061C08C35B7382D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF07F0C9ED836C0A1D12F7DCAC3FF790 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA25AE77D4FFEDBCF5C6127B9D0C7CA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,11 +125,22 @@
 		42A39C265DE117ABCC5FF68BBA8FFE12 /* FKLPanWebView */ = {
 			isa = PBXGroup;
 			children = (
-				A3BA5CF9B33ED67A1D8175FC9E1506E3 /* FKLPanWebView */,
+				A45BE2D69866E5DFD5389B44F0619F97 /* FKLPanWebView */,
 				0E1382A2D15D78DF5F92C2F641F4ED33 /* Support Files */,
 			);
 			name = FKLPanWebView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		43E047ADFEE04E01674E4C157EC5FF48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CC079E2A6249C5000FD1E153028245F /* FKLPanWebView.h */,
+				C714BA25F876F4E2735717170261374A /* FKLPanWebView.m */,
+				1491382E9E535BA94E6E7CCCC3B5E2FB /* FKLWebCacheTool.h */,
+				A76B5683AD812FC51D81B316FDEBFBD8 /* FKLWebCacheTool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -156,10 +171,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A3BA5CF9B33ED67A1D8175FC9E1506E3 /* FKLPanWebView */ = {
+		A45BE2D69866E5DFD5389B44F0619F97 /* FKLPanWebView */ = {
 			isa = PBXGroup;
 			children = (
-				AC7D4071CA75D3E4202DC086617E172C /* Classes */,
+				43E047ADFEE04E01674E4C157EC5FF48 /* Classes */,
 			);
 			path = FKLPanWebView;
 			sourceTree = "<group>";
@@ -180,15 +195,6 @@
 			);
 			name = "Pods-FKLPanWebView_Tests";
 			path = "Target Support Files/Pods-FKLPanWebView_Tests";
-			sourceTree = "<group>";
-		};
-		AC7D4071CA75D3E4202DC086617E172C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AF311DBD806B8705E9005BA199BB4A18 /* FKLPanWebView.h */,
-				0F8F45D0F72B4B1165223B1C17F6B7B2 /* FKLPanWebView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -228,20 +234,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0631B97485D4FB0BAE973DD7FF0D9FD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E2E41C9E377D909C22A7F22B8774B5 /* FKLPanWebView-umbrella.h in Headers */,
+				10144D6115AECD26F9C473D5AB8B0B17 /* FKLPanWebView.h in Headers */,
+				C9F1EF650D7C04A1C18FE31D4F598BE6 /* FKLWebCacheTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B7F5C452B6EF79135E7C27BED01E80A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				042A861B8570E82DF16FD38C9679B793 /* Pods-FKLPanWebView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724BB6A957E368569ACB3686FA906FEE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AB74E263E8262D0CAD846D91439C256 /* FKLPanWebView-umbrella.h in Headers */,
-				7C7B94543EB7FE98B97131645B982E14 /* FKLPanWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +281,13 @@
 			productReference = 2F669A2D44B226B9A2311FF55D551746 /* Pods_FKLPanWebView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		84C2FAC24F0CA9D22AB130D90302F392 /* FKLPanWebView */ = {
+		F97081D1C647CAD8C10C32551E37EB53 /* FKLPanWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABB177B3541DAD6BDF070DD47E7C8F6C /* Build configuration list for PBXNativeTarget "FKLPanWebView" */;
+			buildConfigurationList = 2C09C39E78DB4F8B660B799B7607CEED /* Build configuration list for PBXNativeTarget "FKLPanWebView" */;
 			buildPhases = (
-				0089FEA34BC8EA876D2CD60E6791916D /* Sources */,
-				DF07F0C9ED836C0A1D12F7DCAC3FF790 /* Frameworks */,
-				724BB6A957E368569ACB3686FA906FEE /* Headers */,
+				C70D3178BCB51BA280E1F47A49EEE3E0 /* Sources */,
+				82636EDA0D24E5F9B41F399FE56A0420 /* Frameworks */,
+				0631B97485D4FB0BAE973DD7FF0D9FD7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84C2FAC24F0CA9D22AB130D90302F392 /* FKLPanWebView */,
+				F97081D1C647CAD8C10C32551E37EB53 /* FKLPanWebView */,
 				32ED3A32B97B5231337B763F0C821092 /* Pods-FKLPanWebView_Example */,
 				FC25512AE040E2694BBC30C9DAA913DF /* Pods-FKLPanWebView_Tests */,
 			);
@@ -337,15 +344,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0089FEA34BC8EA876D2CD60E6791916D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CF68511954B6F741D5461AE64872F72 /* FKLPanWebView-dummy.m in Sources */,
-				B7EB9DCB537D047EDC71C4920808EB36 /* FKLPanWebView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56053BF7A2E935798E1B8589ACBB59A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,13 +360,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C70D3178BCB51BA280E1F47A49EEE3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B663A927F7829724B6DAA5BC5E4B65 /* FKLPanWebView-dummy.m in Sources */,
+				3FCB012249D45D3E2DD1A47E7D5E9DC4 /* FKLPanWebView.m in Sources */,
+				3E6D529A23D673A579A4BBF177A133B3 /* FKLWebCacheTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9E823EEF779334D158B9110FC898C536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FKLPanWebView;
-			target = 84C2FAC24F0CA9D22AB130D90302F392 /* FKLPanWebView */;
+			target = F97081D1C647CAD8C10C32551E37EB53 /* FKLPanWebView */;
 			targetProxy = 61642FDE5C05D3AE1813BFBA143B709E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,6 +417,37 @@
 			};
 			name = Release;
 		};
+		1B903F2DD6B4DC85306551508E27F136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FF0D864205300F7CE981E088DD20B9 /* FKLPanWebView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FKLPanWebView/FKLPanWebView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FKLPanWebView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FKLPanWebView/FKLPanWebView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FKLPanWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		385A01C7376F7EA0230C87E4F8B2AF23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41D9669098BED14A98866A34E9B1E9F0 /* Pods-FKLPanWebView_Example.release.xcconfig */;
@@ -444,7 +483,7 @@
 			};
 			name = Release;
 		};
-		4031C33635B22BCEBD3F9495D511F50C /* Release */ = {
+		623D7CC76BC93863E711C5DBDFA58021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51FF0D864205300F7CE981E088DD20B9 /* FKLPanWebView.xcconfig */;
 			buildSettings = {
@@ -629,40 +668,18 @@
 			};
 			name = Debug;
 		};
-		C2C7184FA531DF2315527ED0A96A7F14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51FF0D864205300F7CE981E088DD20B9 /* FKLPanWebView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FKLPanWebView/FKLPanWebView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FKLPanWebView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FKLPanWebView/FKLPanWebView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FKLPanWebView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C09C39E78DB4F8B660B799B7607CEED /* Build configuration list for PBXNativeTarget "FKLPanWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B903F2DD6B4DC85306551508E27F136 /* Debug */,
+				623D7CC76BC93863E711C5DBDFA58021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -677,15 +694,6 @@
 			buildConfigurations = (
 				B0B5BE0288BECC6BE62828B7969DE323 /* Debug */,
 				385A01C7376F7EA0230C87E4F8B2AF23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABB177B3541DAD6BDF070DD47E7C8F6C /* Build configuration list for PBXNativeTarget "FKLPanWebView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2C7184FA531DF2315527ED0A96A7F14 /* Debug */,
-				4031C33635B22BCEBD3F9495D511F50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

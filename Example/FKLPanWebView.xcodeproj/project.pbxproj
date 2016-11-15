@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54B0DC142847B4A6FE2749C1 /* Pods_FKLPanWebView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698006AEEA80A7FE2F057BA /* Pods_FKLPanWebView_Tests.framework */; };
+		58E5004F1DDAB93C00290F80 /* FKLTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E5004E1DDAB93C00290F80 /* FKLTestController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		0A3163C18DFFA35445C7386D /* Pods_FKLPanWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLPanWebView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB49D1F8EB9DBAB971C384 /* Pods-FKLPanWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLPanWebView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKLPanWebView_Tests/Pods-FKLPanWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58E5004D1DDAB93C00290F80 /* FKLTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTestController.h; sourceTree = "<group>"; };
+		58E5004E1DDAB93C00290F80 /* FKLTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTestController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FKLPanWebView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKLPanWebView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FKLViewController.h */,
 				6003F5A6195388D20070C39A /* FKLViewController.m */,
+				58E5004D1DDAB93C00290F80 /* FKLTestController.h */,
+				58E5004E1DDAB93C00290F80 /* FKLTestController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = FKLam;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N665YY47CM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -393,6 +401,7 @@
 				6003F59E195388D20070C39A /* FKLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FKLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				58E5004F1DDAB93C00290F80 /* FKLTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N665YY47CM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FKLPanWebView/FKLPanWebView-Prefix.pch";
 				INFOPLIST_FILE = "FKLPanWebView/FKLPanWebView-Info.plist";
@@ -529,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N665YY47CM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FKLPanWebView/FKLPanWebView-Prefix.pch";
 				INFOPLIST_FILE = "FKLPanWebView/FKLPanWebView-Info.plist";
